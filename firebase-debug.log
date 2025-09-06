@@ -1,0 +1,93 @@
+[debug] [2025-09-06T17:30:21.253Z] ----------------------------------------------------------------------
+[debug] [2025-09-06T17:30:21.255Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Ishan Pathak\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2025-09-06T17:30:21.256Z] CLI Version:   14.15.2
+[debug] [2025-09-06T17:30:21.256Z] Platform:      win32
+[debug] [2025-09-06T17:30:21.256Z] Node Version:  v22.14.0
+[debug] [2025-09-06T17:30:21.256Z] Time:          Sat Sep 06 2025 23:00:21 GMT+0530 (India Standard Time)
+[debug] [2025-09-06T17:30:21.256Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-09-06T17:30:21.261Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-09-06T17:30:21.262Z] > authorizing via signed-in user (ishanpathak003@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Ishan Pathak\OneDrive\Desktop\projects\Shopify\my-shopify-app
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2025-09-06T17:32:51.031Z] Checked if tokens are valid: true, expires at: 1757183417550
+[debug] [2025-09-06T17:32:51.031Z] Checked if tokens are valid: true, expires at: 1757183417550
+[debug] [2025-09-06T17:32:51.032Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2025-09-06T17:32:51.737Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2025-09-06T17:32:51.737Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project shopify-2683a (Shopify) 
+[info] 
+=== Hosting Setup
+[debug] [2025-09-06T17:32:54.219Z] Checked if tokens are valid: true, expires at: 1757183417550
+[debug] [2025-09-06T17:32:54.219Z] Checked if tokens are valid: true, expires at: 1757183417550
+[debug] [2025-09-06T17:32:54.219Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/shopify-2683a [none]
+[debug] [2025-09-06T17:32:54.841Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/shopify-2683a 200
+[debug] [2025-09-06T17:32:54.841Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/shopify-2683a {"projectId":"shopify-2683a","projectNumber":"788667788452","displayName":"Shopify","name":"projects/shopify-2683a","resources":{"hostingSite":"shopify-2683a"},"state":"ACTIVE","etag":"1_ec98be10-e3c2-4d2e-a645-f2c155fa24f1"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2025-09-06T17:34:43.284Z] ----------------------------------------------------------------------
+[debug] [2025-09-06T17:34:43.287Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Ishan Pathak\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init hosting
+[debug] [2025-09-06T17:34:43.287Z] CLI Version:   14.15.2
+[debug] [2025-09-06T17:34:43.287Z] Platform:      win32
+[debug] [2025-09-06T17:34:43.288Z] Node Version:  v22.14.0
+[debug] [2025-09-06T17:34:43.288Z] Time:          Sat Sep 06 2025 23:04:43 GMT+0530 (India Standard Time)
+[debug] [2025-09-06T17:34:43.288Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-09-06T17:34:43.293Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-09-06T17:34:43.294Z] > authorizing via signed-in user (ishanpathak003@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Ishan Pathak\OneDrive\Desktop\projects\Shopify\my-shopify-app
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2025-09-06T17:34:47.493Z] Using project from CLI flag: shopify-2683a
+[debug] [2025-09-06T17:34:47.494Z] Checked if tokens are valid: true, expires at: 1757183417550
+[debug] [2025-09-06T17:34:47.494Z] Checked if tokens are valid: true, expires at: 1757183417550
+[debug] [2025-09-06T17:34:47.495Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/shopify-2683a [none]
+[debug] [2025-09-06T17:34:48.013Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/shopify-2683a 200
+[debug] [2025-09-06T17:34:48.013Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/shopify-2683a {"projectId":"shopify-2683a","projectNumber":"788667788452","displayName":"Shopify","name":"projects/shopify-2683a","resources":{"hostingSite":"shopify-2683a"},"state":"ACTIVE","etag":"1_ec98be10-e3c2-4d2e-a645-f2c155fa24f1"}
+[info] i  Using project shopify-2683a (Shopify) 
+[info] 
+=== Hosting Setup
+[debug] [2025-09-06T17:34:48.141Z] Checked if tokens are valid: true, expires at: 1757183417550
+[debug] [2025-09-06T17:34:48.141Z] Checked if tokens are valid: true, expires at: 1757183417550
+[debug] [2025-09-06T17:34:48.141Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/shopify-2683a [none]
+[debug] [2025-09-06T17:34:48.511Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/shopify-2683a 200
+[debug] [2025-09-06T17:34:48.511Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/shopify-2683a {"projectId":"shopify-2683a","projectNumber":"788667788452","displayName":"Shopify","name":"projects/shopify-2683a","resources":{"hostingSite":"shopify-2683a"},"state":"ACTIVE","etag":"1_ec98be10-e3c2-4d2e-a645-f2c155fa24f1"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
